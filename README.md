@@ -265,7 +265,7 @@ For the web application we will pass the interface record to the handler of the 
 as first argument:
 
 ```haskell
-handler :: Interface -> ApiRequest -> IO ApiResponce
+handler :: Interface -> ApiRequest -> IO ApiResponse
 ```
 
 ### Mutable internal state as interface
